@@ -1,0 +1,80 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(homeweb.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparant;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	position: absolute;
+	top: 92%;
+	left: 94%;
+	width: 60px;
+	height: 60px;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff transparant;
+	transition: 0.6s ease;
+}
+.logo img:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.title{
+	position: absolute;
+	top: 92%;
+	left: 84%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: #000;
+	font-size: 15px; 
+}
+.teks5{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	margin-top: 100px;
+	text-shadow: 0 0 20px #fefcc9, 
+					 10px -10px 30px #feec85,
+					  -20px -20px 40px #ffae34, 
+					  20px -40px 50px #ec760c, 
+					  -20px -60px 60px #cd4606, 
+					  0 -80px 70px #973716, 
+					  10px -90px 80px #451b0e;
+}
+.teks5 h1{
+	font-size: 65px; 
+}

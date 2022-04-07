@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.logo1 img{
+	position: absolute;
+	top: 45%;
+	left: 50%
+	width: 170px;
+	height: 170px;
+	transform: translate(740%, -50%);
+}
+.logo2 img{
+	position: absolute;
+	top: 55%;
+	left: 50%
+	width: 170px;
+	height: 170px;
+	transform: translate(540%, -50%);
+}
+.logo3 img{
+	position: absolute;
+	top: 45%;
+	left: 50%
+	width: 170px;
+	height: 170px;
+	transform: translate(420%, -50%);
+}
+.logo4 img{
+	position: absolute;
+	top: 55%;
+	left: 50%
+	width: 170px;
+	height: 170px;
+	transform: translate(240%, -50%);
+}
+.logo5 img{
+	position: absolute;
+	top: 45%;
+	left: 50%
+	width: 170px;
+	height: 170px;
+	transform: translate(100%, -50%);
+}
+.title1{
+	position: absolute;
+	top: 30%;
+	left: 84.5%;
+	transform: translate(-50%, -50%);
+}
+.title1 h1{
+	color: #000;
+	font-size: 20px;
+}
+.title2{
+	position: absolute;
+	top: 70%;
+	left: 67.5%;
+	transform: translate(-50%, -50%);
+}
+.title2 h1{
+	color: #000;
+	font-size: 20px;
+}
+.title3{
+	position: absolute;
+	top: 30%;
+	left: 50.5%;
+	transform: translate(-50%, -50%);
+}
+.title3 h1{
+	color: #000;
+	font-size: 20px;
+}
+.title4{
+	position: absolute;
+	top: 70%;
+	left: 33.4%;
+	transform: translate(-50%, -50%);
+}
+.title4 h1{
+	color: #000;
+	font-size: 20px;
+}
+.title5{
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	transform: translate(-50%, -50%);
+}
+.title5 h1{
+	color: #000;
+	font-size: 20px;
+}

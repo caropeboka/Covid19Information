@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INFO COVID 19 SURABAYA</title>
+	<link rel="stylesheet" type="text/css" href="home1.css">	
+</head>
+<body>
+	<header>
+		<p>Tekan tombol dibawah untuk memulai kuisioner</p>
+    <button onclick="konfirmasi()">Mulai Kuisioner</button>
+    <p id="pesan"></p>
+    <script>
+        function konfirmasi(){
+            var tanya = confirm("Apakah anda mengalami salah satu dari kondisi berikut: Kesulitan bernafas yang parah (Bernafas dengan sangat cepat atau berbicara dalam satu kata), Nyeri dada yang parah, sulit untuk bangun, merasa kebingungan, penurunan kesadaran. (ya=ok, tidak=cancel)");
+            var tanya1 = confirm("Apakah anda mengalami salah satu dari kondisi berikut: Nafas yang pendek saat istirahat, Ketidakmampuan untuk berbaring karena kesulitan bernafas, Kondisi kesehatan kronis yang anda alami dirasakan lebih berat karena kesulitan bernapas. (ya=ok, tidak=cancel)");
+            var tanya2 = confirm("Apakah Anda mengalami salah satu dari yang berikut: Demam, Batuk, Bersin, Sakit Tenggorokan, Sulit Bernafas. (ya=ok, tidak=cancel)");
+            if(tanya === true || tanya1 === true || tanya2 === true) {
+                pesan = "Hubungi petugas kesehatan terdekat -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------V";
+            }else{
+                pesan = "Tetap jaga kesahatan kawan !!";
+            }
+            document.getElementById("pesan").innerHTML = pesan;
+        }
+    </script>
+		<div class="main">
+			<ul>
+				<li class="active"><a href="#">HOME</a></li>
+				<li><a href="index.html">GENERAL</a></li>
+				<li><a href="gejala.html">SYMPTOMS</a></li>
+				<li><a href="tips.html">SURVIVE</a></li>
+				<li><a href="alur.html">INFECTION</a></li>
+				<li><a href="http://localhost/dbrumahsakit/rs.php">JATIM HOSPITAL LIST</a></li>
+			</ul>
+			<div class="logo">
+			<a href="http://covid19.go.id/">
+				<img src="lambang.png">
+			</a>
+		</div>
+		<div class="teks5">
+			<h1>COVID-19 Informatif Site</h1>
+		</div>
+		<div class="title">
+			<h1>If you want more info, please click this logo</h1>
+		</div>
+	</header>
+</body>>
+</html>
